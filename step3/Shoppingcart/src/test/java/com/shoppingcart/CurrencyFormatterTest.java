@@ -26,7 +26,8 @@ public class CurrencyFormatterTest {
 	
 	private static Stream<Arguments> provideDifferentCurrency() {
 		return Stream.of(Arguments.of(0.564, 0.56)
-				, Arguments.of(0.567,0.57), Arguments.of(314.955,314.96)
+				, Arguments.of(0.567,0.57)
+				, Arguments.of(314.955,314.96)
 				);
 	}
 }
